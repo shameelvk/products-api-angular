@@ -1,0 +1,10 @@
+<div class="container  ">
+    <div class="row align-items-center product-list-container">
+        @for (user of products; track user.id) {
+            <div class="col-md-4">
+                <app-card [product]="user"></app-card>
+              </div>
+          }
+      
+    </div>
+  </div>

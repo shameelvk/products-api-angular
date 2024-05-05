@@ -1,0 +1,17 @@
+.card-image{
+    height: 30vh;
+    object-fit: contain;
+
+}
+.card-description{
+    height: 14vh;
+    overflow-y: hidden;
+}
+.pd-card{
+    height: 80vh;
+    width: 17rem;
+}
+.pd-title{
+    height: 10vh;
+    overflow-y: hidden
+}

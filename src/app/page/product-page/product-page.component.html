@@ -1,0 +1,18 @@
+
+<div class="container mt-4 product-page">
+    <div class="row">
+      <div class="col-md-6 align-items-center ">
+      
+        <img [src]="data.image" class="img-fluid pd-image" alt="{{ data.title }}">
+      </div>
+      <div class="col-md-6">
+       
+        <h2>{{ data.title }}</h2>
+        <p>{{ data.description }}</p>
+        <p>Price: ${{ data.price }}</p>
+        <p>Rating: {{ data.rating.rate }}/5 ({{ data.rating.count}} reviews)</p>
+ 
+      </div>
+    </div>
+  </div>
+  
